@@ -163,3 +163,12 @@ body{
     border-color: white;
     border-width: thin;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 25%;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
