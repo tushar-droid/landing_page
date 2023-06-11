@@ -52,6 +52,7 @@ body{
 .hero-image{
     background-color: rgba(211,211,211, 0.4);
     width: 70%;
+    height:auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,5 +65,44 @@ button{
     border:none;
     font-size: medium;
 }
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 300px;
+}
 
+.contents{
+    display: flex;
+    gap:32px;
+}
 
+.img-holder{
+    border: solid #3882f6;
+    height: 120px;
+    width:120px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.content-heading{
+    text-align: center ;
+    padding: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937
+}
+
+.information{
+    width:120px;
+}
