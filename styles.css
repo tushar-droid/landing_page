@@ -13,7 +13,8 @@ body{
 .section-1{
     background-color: #1F2937;
     color: white;
-    padding: 0px 300px;
+    padding: 0px 25%;
+
     padding-bottom: 50px;
     margin: 0px;
 }
@@ -57,7 +58,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-button{
+.hero-btn{
     background-color:#3882f6;
     color: white;
     padding: 8px 30px;
@@ -70,7 +71,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 300px;
+    padding: 0px 25%;
     padding-bottom: 100px;
 }
 
@@ -115,7 +116,7 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    padding: 100px 300px;
+    padding: 100px 25%;
 }
 .quote{
     font-size: 36px;
@@ -128,4 +129,37 @@ button{
     width: 100%;
     justify-content: flex-end;
     font-weight: 900;
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 25%;
+}
+
+.cta-container{
+    background-color: #3882f6;
+    color:#f9faf8;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+    width: 100%;
+    flex:0 0 100%;
+}
+.cta-left{
+    flex-basis: 75%;
+}
+
+.cta-button{
+    background-color:#3882f6;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border:solid;
+    font-size: medium;
+    border-color: white;
+    border-width: thin;
 }
