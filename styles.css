@@ -71,17 +71,19 @@ button{
     justify-content: center;
     align-items: center;
     padding: 0px 300px;
+    padding-bottom: 100px;
 }
 
 .contents{
     display: flex;
     gap:32px;
+    width: auto;    
 }
 
 .img-holder{
     border: solid #3882f6;
     height: 120px;
-    width:120px;
+    min-width:120px;
     border-radius: 12px;
     margin-bottom: 12px;
 }
@@ -104,5 +106,26 @@ button{
 }
 
 .information{
-    width:120px;
+    min-width:120px;
+}
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.author{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-weight: 900;
 }
